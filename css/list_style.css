@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&family=Pacifico&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  background-color: rgb(185, 202, 139);
+}
+p {
+  font-size: 35px;
+  text-align: center;
+}
+img {
+  width: 500px;
+  border-radius: 15px;
+}
+header {
+  background-color: rgb(158, 168, 112);
+  border-radius: 35px;
+}
+li {
+  list-style: none;
+}
+main {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  font-family: "Lobster", sans-serif;
+}
+h1 {
+  font-family: "Pacifico", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+}
+h2 {
+  font-family: "Lobster";
+  font-size: 45px;
+  color: rgb(18, 133, 85);
+}
+section {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+button {
+  font-size: 30px;
+  border-style: none;
+  border-radius: 6px;
+
+  background-color: rgb(63, 139, 1);
+}
+a {
+  text-decoration: none;
+}
+.header-info {
+  color: rgb(0, 255, 191);
+  text-align: center;
+  padding: 1px;
+}
+.head-text {
+  color: rgb(255, 131, 131);
+  size: 50px;
+}
+.head-info {
+  display: flex;
+  align-items: start;
+}
+.info-card {
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: start;
+  width: 600px;
+}
+.card-text {
+  text-align: start;
+  color: rgb(109, 248, 190);
+}
+.button-text {
+  color: rgb(59, 224, 54);
+}
+.card-hyper-text {
+  text-decoration: none;
+  color: rgb(117, 255, 179);
+  font-size: 29px;
+}
